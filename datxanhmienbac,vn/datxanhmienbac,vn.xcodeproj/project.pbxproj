@@ -14,6 +14,10 @@
 		FA97ABFE1CA4D878005DE8EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA97ABFC1CA4D878005DE8EB /* LaunchScreen.storyboard */; };
 		FA97AC091CA4D878005DE8EB /* datxanhmienbac_vnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA97AC081CA4D878005DE8EB /* datxanhmienbac_vnTests.swift */; };
 		FA97AC141CA4D878005DE8EB /* datxanhmienbac_vnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA97AC131CA4D878005DE8EB /* datxanhmienbac_vnUITests.swift */; };
+		FA97AC381CA4EE44005DE8EB /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA97AC371CA4EE44005DE8EB /* NewsTableViewController.swift */; };
+		FA97AC3A1CA4EF9B005DE8EB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA97AC391CA4EF9B005DE8EB /* HomeViewController.swift */; };
+		FA97AC3C1CA4EFA4005DE8EB /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA97AC3B1CA4EFA4005DE8EB /* IntroViewController.swift */; };
+		FA97AC471CA4F255005DE8EB /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA97AC461CA4F255005DE8EB /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,12 @@
 		FA97AC0F1CA4D878005DE8EB /* datxanhmienbac,vnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "datxanhmienbac,vnUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA97AC131CA4D878005DE8EB /* datxanhmienbac_vnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = datxanhmienbac_vnUITests.swift; sourceTree = "<group>"; };
 		FA97AC151CA4D878005DE8EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA97AC371CA4EE44005DE8EB /* NewsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
+		FA97AC391CA4EF9B005DE8EB /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FA97AC3B1CA4EFA4005DE8EB /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		FA97AC451CA4F255005DE8EB /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		FA97AC461CA4F255005DE8EB /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		FA97AC481CA4F299005DE8EB /* datxanhmienbac,vn-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "datxanhmienbac,vn-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,8 @@
 		FA97ABF21CA4D878005DE8EB /* datxanhmienbac,vn */ = {
 			isa = PBXGroup;
 			children = (
+				FA97AC441CA4F200005DE8EB /* SWRevealViewController */,
+				FA97AC361CA4EE44005DE8EB /* Modules */,
 				FA97ABF31CA4D878005DE8EB /* AppDelegate.swift */,
 				FA97ABF51CA4D878005DE8EB /* ViewController.swift */,
 				FA97ABF71CA4D878005DE8EB /* Main.storyboard */,
@@ -123,6 +135,26 @@
 				FA97AC151CA4D878005DE8EB /* Info.plist */,
 			);
 			path = "datxanhmienbac,vnUITests";
+			sourceTree = "<group>";
+		};
+		FA97AC361CA4EE44005DE8EB /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				FA97AC391CA4EF9B005DE8EB /* HomeViewController.swift */,
+				FA97AC3B1CA4EFA4005DE8EB /* IntroViewController.swift */,
+				FA97AC371CA4EE44005DE8EB /* NewsTableViewController.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		FA97AC441CA4F200005DE8EB /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FA97AC481CA4F299005DE8EB /* datxanhmienbac,vn-Bridging-Header.h */,
+				FA97AC451CA4F255005DE8EB /* SWRevealViewController.h */,
+				FA97AC461CA4F255005DE8EB /* SWRevealViewController.m */,
+			);
+			path = SWRevealViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +293,10 @@
 			files = (
 				FA97ABF61CA4D878005DE8EB /* ViewController.swift in Sources */,
 				FA97ABF41CA4D878005DE8EB /* AppDelegate.swift in Sources */,
+				FA97AC381CA4EE44005DE8EB /* NewsTableViewController.swift in Sources */,
+				FA97AC3A1CA4EF9B005DE8EB /* HomeViewController.swift in Sources */,
+				FA97AC3C1CA4EFA4005DE8EB /* IntroViewController.swift in Sources */,
+				FA97AC471CA4F255005DE8EB /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +438,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "datxanhmienbac,vn/Info.plist";
@@ -409,6 +446,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "DXMB.datxanhmienbac-vn";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "datxanhmienbac,vn/SWRevealViewController/datxanhmienbac,vn-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -416,6 +455,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "datxanhmienbac,vn/Info.plist";
@@ -423,6 +463,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "DXMB.datxanhmienbac-vn";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "datxanhmienbac,vn/SWRevealViewController/datxanhmienbac,vn-Bridging-Header.h";
 			};
 			name = Release;
 		};
