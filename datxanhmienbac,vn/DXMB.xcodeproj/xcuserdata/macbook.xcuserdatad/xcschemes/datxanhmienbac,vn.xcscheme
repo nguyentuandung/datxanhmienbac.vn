@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FA97ABEF1CA4D877005DE8EB"
-               BuildableName = "datxanhmienbac,vn.app"
-               BlueprintName = "datxanhmienbac,vn"
-               ReferencedContainer = "container:datxanhmienbac,vn.xcodeproj">
+               BuildableName = "DXMB.app"
+               BlueprintName = "dxmb"
+               ReferencedContainer = "container:DXMB.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FA97AC031CA4D878005DE8EB"
-               BuildableName = "datxanhmienbac,vnTests.xctest"
-               BlueprintName = "datxanhmienbac,vnTests"
-               ReferencedContainer = "container:datxanhmienbac,vn.xcodeproj">
+               BuildableName = "DXMB.xctest"
+               BlueprintName = "dxmbTests"
+               ReferencedContainer = "container:DXMB.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FA97AC0E1CA4D878005DE8EB"
-               BuildableName = "datxanhmienbac,vnUITests.xctest"
-               BlueprintName = "datxanhmienbac,vnUITests"
-               ReferencedContainer = "container:datxanhmienbac,vn.xcodeproj">
+               BuildableName = "DXMB.xctest"
+               BlueprintName = "dxmbUITests"
+               ReferencedContainer = "container:DXMB.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FA97ABEF1CA4D877005DE8EB"
-            BuildableName = "datxanhmienbac,vn.app"
-            BlueprintName = "datxanhmienbac,vn"
-            ReferencedContainer = "container:datxanhmienbac,vn.xcodeproj">
+            BuildableName = "DXMB.app"
+            BlueprintName = "dxmb"
+            ReferencedContainer = "container:DXMB.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FA97ABEF1CA4D877005DE8EB"
-            BuildableName = "datxanhmienbac,vn.app"
-            BlueprintName = "datxanhmienbac,vn"
-            ReferencedContainer = "container:datxanhmienbac,vn.xcodeproj">
+            BuildableName = "DXMB.app"
+            BlueprintName = "dxmb"
+            ReferencedContainer = "container:DXMB.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FA97ABEF1CA4D877005DE8EB"
-            BuildableName = "datxanhmienbac,vn.app"
-            BlueprintName = "datxanhmienbac,vn"
-            ReferencedContainer = "container:datxanhmienbac,vn.xcodeproj">
+            BuildableName = "DXMB.app"
+            BlueprintName = "dxmb"
+            ReferencedContainer = "container:DXMB.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
